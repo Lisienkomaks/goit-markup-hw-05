@@ -743,7 +743,7 @@ p {
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    position: absolute;
+    position: relative;
     transition: scale 500ms;
     transform-origin: center;
 }
