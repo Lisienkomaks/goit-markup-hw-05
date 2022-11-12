@@ -532,6 +532,34 @@ p {
     display: block;
 }
 
+.img-wrapper{
+    position: relative;
+ 
+}
+
+.img-description{
+    background-color: rgba(33, 150, 243, 0.9);
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.img-description:hover,
+.img-description:focus {
+    
+}
+
+
 .portfolio-title {
     margin-bottom: 4px;
     color: var(--title-text-color);
